@@ -237,7 +237,7 @@ function createTask(task, flag) {
             } 
           }
           saveTaskstoLocalStorage(tasks);
-          // newBox.classList.toggle("bg-yellow-500");
+          
           taskbox.classList.toggle('line-through');
           if (donebtn.innerText == "✅") {
             donebtn.innerText = "❌";
